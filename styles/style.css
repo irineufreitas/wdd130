@@ -19,3 +19,33 @@ img {
 p {
   padding: 10px;
 }
+main {
+  max-width: fit-content;
+}
+aside {
+  margin: 1em;
+  border: 10px solid rgba(0, 0, 0, 0.2);
+  background-color: lightblue;
+  color: darkblue;
+
+  
+
+}
+aside img {
+  width: 200px;
+  height: auto;
+}
+main img {
+  width: 150px;
+  height: auto;
+  
+}
+p {
+  padding:0;
+
+}
+footer {
+  margin-top: 1em;
+  border-top: 1px solid #000;
+  text-align: center;
+}
