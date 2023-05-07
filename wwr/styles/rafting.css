@@ -34,9 +34,7 @@ article {
     top: 140px;
     right: 600px;
     background-color: #FFB703;
-    
-    
-    
+     
 }
 
 article img {
@@ -63,10 +61,15 @@ header{
     background-color: var(--secondary-color)
 }
 
-
 .hero img
 {
     display: block;
     width: 100%;
     height: auto;
+    float: right;
+}
+.sociallinks {
+    background-color: var(--primary-color);
+    font-size: 1.2rem;
+    display: flex;
 }
