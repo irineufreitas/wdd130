@@ -102,6 +102,7 @@ footer .socialinks img {
 }
 nav {
 	text-align: right;
+    display: flex;
 }
 
 .history {
@@ -111,11 +112,9 @@ nav {
     align-items: center;
 }
 .adventure {
-    padding: 20px;
+    padding: 2px;
     background-color: var(--secondary-color);
-    display: grid;
-    grid-template-columns: auto;
-    
+    display: grid; 
 
 }
 section {
@@ -128,12 +127,19 @@ section {
 }
 .images {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: fit-content;
-    height: fit-content;
-    padding: 2px;
+    flex-wrap: nowrap;
+    width: 90%;
+    height: 80px;
+    padding: 80px;
 }
+
+.images img {
+    
+    height:100px;
+    min-height:100%;
+    width: 100%;
+   
+  }
 footer {
     background-color: var(--accent2-color);
     color: black;
@@ -147,7 +153,7 @@ footer {
     border: thin #c0c0c0 solid;
     display: flex;
     flex-direction: row;
-    padding: 5px;
+    padding: 10px;
     width: 20%;
     height: 11px;
     margin: auto;
@@ -159,6 +165,7 @@ footer {
     color: #fff;
     font: var(--paragraph-font);
     padding: 3px;
+    text-align: justify;
     
     
     
