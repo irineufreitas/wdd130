@@ -149,7 +149,6 @@ flex-direction: row;
 
   }
   figcaption {
-   
     background-color: #222;
     color: #fff;
     font: var(--paragraph-font);
