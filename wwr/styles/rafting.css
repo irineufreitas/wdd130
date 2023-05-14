@@ -96,13 +96,65 @@ header{
     height: auto;
     float: right;
 }
-.socialinks {
-    background-color: var(--primary-color);
-    display:grid;
-  grid-template-columns: 2fr 2fr 2fr;
-  grid-template-rows: min-content;
- 
+footer .socialinks img {
+    padding-top: 15px;
+
 }
 nav {
 	text-align: right;
+}
+
+.history {
+    padding: 20px;
+    background-color: var(--secondary-color);
+    display: grid;
+    align-items: center;
+}
+.adventure {
+    padding: 20px;
+    background-color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: auto;
+    
+
+}
+section {
+    padding: 20px;
+    background-color: var(--secondary-color);
+}
+.images {
+    display: flex;
+    width: 100%;
+    height: 150px;
+   padding: 2px;
+}
+footer {
+    background-color: var(--accent2-color);
+    color: black;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+flex-direction: row;
+    padding: 5px;
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    
+
+  }
+  figcaption {
+   
+    background-color: #222;
+    color: #fff;
+    font: var(--paragraph-font);
+    padding: 3px;
+    
+    
+    
 }
