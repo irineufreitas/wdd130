@@ -170,3 +170,63 @@ footer {
     
     
 }
+.imagesemployees {
+    display: flex;
+    flex-wrap: nowrap;
+    width: auto;
+    height: 100%;
+    padding: 5px;
+}
+
+.imagesemployees img {
+    
+    height: auto;
+    min-height:100%;
+    width: 100%;
+    align-items: normal;
+
+   
+  }
+footer {
+    background-color: var(--accent2-color);
+    color: black;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  figure .imagesemployess .employee1 .employee2   {
+    border: thin #c0c0c0 solid;
+    display: grid;
+    grid-auto-rows: auto ;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    
+
+  }
+
+
+
+  figcaption {
+    background-color: transparent;
+    color: #023047;
+    font: var(--paragraph-font);
+    padding: 3px;
+    text-align: center;
+    font-weight: 300;
+    
+    
+}
+
+form {
+    width: auto;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: var(--secondary-color);
+    display: grid;
+}

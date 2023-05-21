@@ -127,7 +127,7 @@ section {
 }
 
 
-.images {
+.imagesemployees {
     display: flex;
     flex-wrap: nowrap;
     width: auto;
@@ -135,7 +135,7 @@ section {
     padding: 5px;
 }
 
-.images img {
+.imagesemployees img {
     
     height: auto;
     min-height:100%;
@@ -153,7 +153,7 @@ footer {
     align-items: center;
   }
 
-  figure .images .first .second   {
+  figure .imagesemployess .employee1 .employee2   {
     border: thin #c0c0c0 solid;
     display: grid;
     grid-auto-rows: auto ;
